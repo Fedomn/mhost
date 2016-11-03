@@ -1,7 +1,7 @@
 {
   "name": "mhost",
   "description": "Manage /etc/hosts tool",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "fedomn <shadowforfiend@gmail.com>",
   "repository": "git@github.com:Fedomn/mhost.git",
   "keywords": [
