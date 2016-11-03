@@ -4,8 +4,7 @@
 [![NPM Version](http://img.shields.io/npm/v/mhost.svg?style=flat)](https://www.npmjs.org/package/mhost)
 [![NPM Downloads](https://img.shields.io/npm/dm/mhost.svg?style=flat)](https://www.npmjs.org/package/mhost)
 
-Manage hosts by workspace file
-
+manage hosts by workspace file .mhost.yml
 
 ## Installation
 
