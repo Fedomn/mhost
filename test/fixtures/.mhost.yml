@@ -1,0 +1,7 @@
+test-remote:
+  111.111.111.111: test.remote1.com
+  222.222.222.222: test.remote2.com
+
+test-local:
+  127.0.0.1: test.local.com
+
