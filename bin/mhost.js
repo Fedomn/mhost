@@ -11,7 +11,7 @@ program
 
 program
   .command('setup')
-  .description('create mhost config file')
+  .description('create mhost config file ~/.config/.mhost.yml')
   .action(function () {
     HostManager.console(HostManager.createConfigFile());
   });

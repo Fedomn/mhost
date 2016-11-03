@@ -13,7 +13,7 @@ manage hosts by workspace file .mhost.yml
 ## Commands
 
 ```
-setup        create mhost config file
+setup        create mhost config file ~/.config/.mhost.yml
 list         list hosts ip host mapping
 keys         list mhost key
 set [alias]  set mhost match value to hosts
