@@ -41,12 +41,16 @@ class HostManager {
    * Create .mhost.file
    */
   static createConfigFile() {
-    let output = yaml.dump(DEMO_CONFIG);
-    try {
-      fs.writeFileSync(MHOST_CONF, output);
-      return { status: true, msg: `create config file: ${MHOST_CONF} success` };
-    } catch (err) {
-      return { status: false, msg: err };
+    if (fs.existsSync(MHOST_CONF)) {
+      return { status: false, msg: `config file ${MHOST_CONF} has existed` };
+    } else {
+      let output = yaml.dump(DEMO_CONFIG);
+      try {
+        fs.writeFileSync(MHOST_CONF, output);
+        return { status: true, msg: `create config file: ${MHOST_CONF} success` };
+      } catch (err) {
+        return { status: false, msg: err };
+      }
     }
   }
 
